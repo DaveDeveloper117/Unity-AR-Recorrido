@@ -5,28 +5,39 @@ using System.Collections.Generic;
 
 public class ThirdPersonCamera : MonoBehaviour
 {
-    public Transform target;  // El objeto a seguir
-    public float smoothing = 5f;  // La suavidad de la cámara al seguir el objeto
+    public Transform target; // El objeto a seguir
+    public float distance = 5; // Distancia entre la cámara y el objeto
+    public float height = 2f; // Altura de la cámara sobre el objeto
+    public float rotationDamping = 10f; // Suavidad de la rotación de la cámara
+    public float followSmoothing = 5f; // Suavidad del seguimiento del jugador
+    private float currentRotationAngle; // Ángulo actual de rotación de la cámara
+    private float desiredRotationAngle; // Ángulo deseado de rotación de la cámara
+    private Quaternion currentRotation; // Rotación actual de la cámara
+    private Quaternion desiredRotation; // Rotación deseada de la cámara
 
-    Vector3 offset;  // La distancia entre la cámara y el objeto
-
-    void Start()
+    private void LateUpdate()
     {
-        // Calcula la distancia inicial entre la cámara y el objeto
-        offset = transform.position - target.position;
-    }
+        // Obtiene la posición del jugador
+        Vector3 targetPosition = target.position;
 
-    void FixedUpdate()
-    {
         // Calcula la posición deseada de la cámara
-        Vector3 targetCamPos = target.position + offset;
+        Vector3 desiredPosition = targetPosition - (target.forward * distance) + (Vector3.up * height);
 
-        // Sigue suavemente el objeto con la cámara
-        transform.position = Vector3.Lerp(transform.position, targetCamPos, smoothing * Time.deltaTime);
+        // Actualiza la posición de la cámara
+        transform.position = Vector3.Lerp(transform.position, desiredPosition, followSmoothing * Time.deltaTime);
 
-        // Rota la cámara junto con el jugador en el eje Y
-        float targetAngle = target.eulerAngles.y;
-        Quaternion targetRotation = Quaternion.Euler(0f, targetAngle, 0f);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, smoothing * Time.deltaTime);
+        // Obtiene la rotación del jugador
+        Quaternion targetRotation = target.rotation;
+
+        // Calcula la rotación deseada de la cámara
+        desiredRotationAngle = targetRotation.eulerAngles.y;
+        desiredRotation = Quaternion.Euler(0, desiredRotationAngle, 0);
+
+        // Actualiza la rotación de la cámara suavemente
+        currentRotation = transform.rotation;
+        currentRotationAngle = Mathf.LerpAngle(currentRotationAngle, desiredRotationAngle, rotationDamping * Time.deltaTime);
+        currentRotation = Quaternion.Euler(0, currentRotationAngle, 0);
+
+        transform.rotation = currentRotation;
     }
 }
