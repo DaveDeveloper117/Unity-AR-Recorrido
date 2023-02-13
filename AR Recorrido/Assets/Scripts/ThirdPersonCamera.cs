@@ -23,5 +23,10 @@ public class ThirdPersonCamera : MonoBehaviour
 
         // Sigue suavemente el objeto con la cámara
         transform.position = Vector3.Lerp(transform.position, targetCamPos, smoothing * Time.deltaTime);
+
+        // Rota la cámara junto con el jugador en el eje Y
+        float targetAngle = target.eulerAngles.y;
+        Quaternion targetRotation = Quaternion.Euler(0f, targetAngle, 0f);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, smoothing * Time.deltaTime);
     }
 }
