@@ -5,15 +5,18 @@ using System.Collections.Generic;
 
 public class ThirdPersonCamera : MonoBehaviour
 {
+    [Range(-90, 90)]
+    public float tiltAngle = 60.0f;
     public Transform target; // El objeto a seguir
-    public float distance = 5; // Distancia entre la cámara y el objeto
-    public float height = 2f; // Altura de la cámara sobre el objeto
-    public float rotationDamping = 10f; // Suavidad de la rotación de la cámara
-    public float followSmoothing = 5f; // Suavidad del seguimiento del jugador
+    public float distance = 2.0f; // Distancia entre la cámara y el objeto
+    public float height = 2.0f; // Altura de la cámara sobre el objeto
+    public float rotationDamping = 10.0f; // Suavidad de la rotación de la cámara
+    public float followSmoothing = 8.0f; // Suavidad del seguimiento del jugador
     private float currentRotationAngle; // Ángulo actual de rotación de la cámara
     private float desiredRotationAngle; // Ángulo deseado de rotación de la cámara
     private Quaternion currentRotation; // Rotación actual de la cámara
     private Quaternion desiredRotation; // Rotación deseada de la cámara
+   
 
     private void LateUpdate()
     {
@@ -39,5 +42,9 @@ public class ThirdPersonCamera : MonoBehaviour
         currentRotation = Quaternion.Euler(0, currentRotationAngle, 0);
 
         transform.rotation = currentRotation;
+
+        transform.localRotation = Quaternion.Euler(tiltAngle, 0, 0);
+
+        transform.LookAt(target);
     }
 }
