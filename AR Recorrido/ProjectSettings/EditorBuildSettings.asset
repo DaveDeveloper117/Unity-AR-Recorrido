@@ -9,9 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/SplashScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: a1a85cbf4914e544096b00b0544e8e41
+  - enabled: 1
     path: Assets/Scenes/RectoriaScene.unity
     guid: 269e483e5fe562d4286505bd1f114006
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
-    guid: a1a85cbf4914e544096b00b0544e8e41
+    path: Assets/Scenes/LabPesadosScene.unity
+    guid: cb0eb0fefda94234abe3de428e115b1d
+  - enabled: 1
+    path: Assets/Scenes/BibScene.unity
+    guid: 410994ed8fc797d4094cb42f3de2410d
+  - enabled: 1
+    path: Assets/Scenes/UD2Scene.unity
+    guid: 9dd5c8ea1733063459fca0aa6f29bced
   m_configObjects: {}
