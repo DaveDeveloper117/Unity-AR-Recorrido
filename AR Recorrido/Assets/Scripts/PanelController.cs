@@ -9,7 +9,7 @@ public class PanelController : MonoBehaviour
 
     private Button button;
 
-    public void Start()
+    private void Start()
     {
         button = GetComponent<Button>();
 
