@@ -12,15 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: a1a85cbf4914e544096b00b0544e8e41
   - enabled: 1
-    path: Assets/Scenes/RectoriaScene.unity
+    path: Assets/Scenes/UDI.unity
     guid: 269e483e5fe562d4286505bd1f114006
   - enabled: 1
-    path: Assets/Scenes/LabPesadosScene.unity
-    guid: cb0eb0fefda94234abe3de428e115b1d
+    path: Assets/Scenes/BIBLIO.unity
+    guid: 30d01752b40fd2840ac4daaa02aa1943
   - enabled: 1
-    path: Assets/Scenes/BibScene.unity
-    guid: 410994ed8fc797d4094cb42f3de2410d
+    path: Assets/Scenes/LAB.unity
+    guid: 96a3efd47edd9c34ab01b92ccb6696c1
   - enabled: 1
-    path: Assets/Scenes/UD2Scene.unity
-    guid: 9dd5c8ea1733063459fca0aa6f29bced
+    path: Assets/Scenes/UDII.unity
+    guid: 1df1ad75ed89ecc4290367c05be285d1
   m_configObjects: {}
