@@ -61,4 +61,4 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
 ## Licencia
 
-Este proyecto se encuentra bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto se encuentra bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/DaveDeveloper117/Unity-AR-Recorrido/blob/main/LICENSE) para más detalles.
