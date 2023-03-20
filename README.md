@@ -21,6 +21,10 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 -   [Git](https://git-scm.com/downloads) instalado.
 -   [LFS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-git-lfs-objects-in-archives-of-your-repository) (Git Large File Storage) en los atributos de Git.
 
+## Herramientas modelado 3D
+- Blender [descargar aquí](https://www.blender.org/download/) se utilizo para el modelado del personaje wolfy y las animaciones dentro de la aplicación.
+![Captura de pantalla 1](assets/captura4.png)
+
 ## Instalación
 
 1.  Clonar el repositorio en tu máquina local utilizando Git:
