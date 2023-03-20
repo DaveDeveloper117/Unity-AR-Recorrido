@@ -7,6 +7,10 @@ Este repositorio contiene un proyecto de Unity basado en la plataforma móvil, q
 
 El proyecto consiste en un recorrido virtual por el campus de la institución UTVAM, en el cual se deben encontrar diferentes zonas dentro de los edificios del campus. La experiencia de usuario es enriquecida gracias a la realidad aumentada, la cual se implementa a través del uso de Vuforia Engine.
 
+![Captura de pantalla 1](assets/captura1.png)
+![Captura de pantalla 1](assets/captura2.png)
+![Captura de pantalla 1](assets/captura3.png)
+
 ## Requisitos
 
 Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisitos:
