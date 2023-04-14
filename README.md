@@ -40,7 +40,7 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 6.  Instalar el archivo APK en un dispositivo móvil compatible con Android.
     
 
-## Contribuciones
+## Contribuciones - (No disponible por el momento)
 
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
