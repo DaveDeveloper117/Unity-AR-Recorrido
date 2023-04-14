@@ -7,9 +7,9 @@ Este repositorio contiene un proyecto de Unity basado en la plataforma móvil, q
 
 El proyecto consiste en un recorrido virtual por el campus de la institución UTVAM, en el cual se deben encontrar diferentes zonas dentro de los edificios del campus. La experiencia de usuario es enriquecida gracias a la realidad aumentada, la cual se implementa a través del uso de Vuforia Engine.
 
-![Captura de pantalla 1](assets/captura1.png)
-![Captura de pantalla 1](assets/captura2.png)
-![Captura de pantalla 1](assets/captura3.png)
+ ![Captura de pantalla 1](assets/captura1.png)
+ ![Captura de pantalla 1](assets/captura2.png)
+ ![Captura de pantalla 1](assets/captura3.png)
 
 ## Requisitos
 
@@ -23,7 +23,7 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 
 ## Herramientas modelado 3D
 - Blender [descargar aquí](https://www.blender.org/download/) se utilizo para el modelado del personaje wolfy y las animaciones dentro de la aplicación.
-![Captura de pantalla 1](assets/captura4.png)
+ ![Captura de pantalla 1](assets/captura4.png)
 
 ## Instalación
 
@@ -40,7 +40,7 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 6.  Instalar el archivo APK en un dispositivo móvil compatible con Android.
     
 
-## Contribuciones
+## Contribuciones - (No disponible por el momento)
 
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
