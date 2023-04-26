@@ -43,4 +43,4 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 
 ## Licencia
 
-Este proyecto se encuentra bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/DaveDeveloper117/Unity-AR-Recorrido/blob/main/LICENSE) para más detalles.
+Este proyecto se encuentra bajo la licencia Creative Commons. Consulta el archivo [LICENSE](https://github.com/DaveDeveloper117/Unity-AR-Recorrido/blob/main/LICENSE) para más detalles.
