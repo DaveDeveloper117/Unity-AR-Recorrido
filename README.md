@@ -29,7 +29,9 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 
 1.  Clonar el repositorio en tu máquina local utilizando Git:
 
-    ```git clone https://github.com/username/Unity-AR-Recorrido.git```
+    ```bash
+    git clone https://github.com/DaveDeveloper117/Unity-AR-Recorrido.git
+    ```
 
 3.  Abrir el proyecto en Unity.
     
@@ -38,34 +40,6 @@ Para poder utilizar y ejecutar este proyecto se necesitan los siguientes requisi
 5.  Exportar el proyecto en un archivo APK utilizando Android SDK y NDK.
     
 6.  Instalar el archivo APK en un dispositivo móvil compatible con Android.
-    
-
-## Contribuciones - (No disponible por el momento)
-
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-1.  Haz un fork del repositorio.
-    
-2.  Clona tu fork en tu máquina local:
-    
-    ```git clone https://github.com/username/Unity-AR-Recorrido.git```
-
-3.  Crea una rama con el nombre de la función que deseas agregar:
-
-    ```git checkout -b feature-nueva-funcion```
-
-4.  Realiza los cambios necesarios y haz commit de los mismos:
-
-    ```git commit -am "Agrega nueva función"```
-
-5.  Envía tus cambios al repositorio remoto:
-
-    ```git push origin feature-nueva-funcion```
-
-6.  Crea un pull request en el repositorio original.
-    
-7.  Espera a que tus cambios sean revisados y aceptados.
-    
 
 ## Licencia
 
