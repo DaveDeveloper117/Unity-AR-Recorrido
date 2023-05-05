@@ -1,5 +1,5 @@
 
-# Unity-AR-Recorrido 🇦🇷
+# Unity-AR-Recorrido 
 
 Este repositorio contiene un proyecto de Unity basado en la plataforma móvil, que utiliza el motor de juego Unity Engine en su versión 2020.3.25f1 y el SDK de terceros Vuforia Engine para la creación de un recorrido virtual de una institución llamada UTVAM.
 
